@@ -1,0 +1,141 @@
+body {
+	background: aliceblue;
+	margin: 0;
+}
+.p-body-l {
+	width: 300px;
+	height: 425px;
+	background: orange;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	position: absolute;
+	top: 35px;
+	left: 100px;
+}
+.p-body-m {
+	width: 300px;
+	height: 450px;
+	background: orange;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	position: absolute;
+	top: 25px;
+	left: 200px;
+}
+.p-body-r {
+	width: 300px;
+	height: 425px;
+	background: orange;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	position: absolute;
+	top: 35px;
+	left: 300px;
+}
+.p-right-eye {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	border-radius: 100%;
+	position: absolute;
+	top: 130px;
+	left: 400px;
+}
+.p-left-eye {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	border-radius: 100%;
+	position: absolute;
+	top: 130px;
+	left: 250px;
+}
+.nose {
+	width: 0;
+    height: 0;
+    border-left: 25px solid transparent; /* Left side of the triangle */
+    border-right: 25px solid transparent; /* Right side of the triangle */
+    border-bottom: 15px solid #000; /* Base of the triangle (color) */
+    position: absolute;
+	top: 150px;
+	left: 325px;
+}
+.mouth {
+	width: 350px;
+	height: 250px;
+	background-color: black;
+	position: absolute;
+	top: 200px;
+	left: 175px;
+	border-top: none;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+.tooth-1 {
+	width: 100;
+    height: 100;
+    background-color: orange;
+    border-left: 50px solid transparent; /* Left side of the triangle */
+    border-right: 50px solid transparent; /* Right side of the triangle */
+    border-bottom: 50px solid #000; /* Base of the triangle (color) */
+    position: absolute;
+	top: 200px;
+	left: 200px;
+}
+.tooth-2 {
+	width: 100;
+    height: 100;
+    background-color: orange;
+    border-left: 50px solid transparent; /* Left side of the triangle */
+    border-right: 50px solid transparent; /* Right side of the triangle */
+    border-bottom: 50px solid #000; /* Base of the triangle (color) */
+    position: absolute;
+	top: 200px;
+	left: 400px;
+}
+.hair-1 {
+	width: 50px;
+    height: 100px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+	top: 10px;
+	left: 300px;
+	transform: rotate(45deg);;
+}
+.hair-2 {
+	width: 50px;
+    height: 100px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+	top: 10px;
+	left: 350px;
+	transform: rotate(-45deg);
+}
+.hair-3 {
+	width: 50px;
+    height: 100px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+	top: 5px;
+	left: 250px;
+	transform: rotate(60deg);
+}
+.hair-4 {
+	width: 50px;
+    height: 100px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+	top: 5px;
+	left: 400px;
+	transform: rotate(-60deg);
+}
